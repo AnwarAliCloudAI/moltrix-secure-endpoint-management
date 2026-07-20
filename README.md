@@ -1,102 +1,99 @@
 # Moltrix Secure Endpoint Management
 
-A hands-on Microsoft Intune and endpoint-security portfolio project aligned with MD-102 skills and enterprise device-management practices.
+A hands-on Microsoft Intune and Microsoft Entra portfolio project aligned with MD-102 skills and enterprise endpoint-management practices.
 
 ## Project Status
 
-**Current phase:** Project planning  
-**Environment:** Portfolio lab  
-**Platform:** Microsoft Intune and Microsoft Entra  
-**Certification alignment:** MD-102
+- **Current phase:** Requirements and architecture
+- **Environment:** Portfolio lab
+- **Platform:** Microsoft Intune and Microsoft Entra
+- **Certification alignment:** MD-102
+- **Project charter:** Completed
 
-> This is a controlled learning environment. All public evidence will be sanitized to remove tenant identifiers, usernames, device identifiers, secrets, and other sensitive information.
+> This is a controlled learning environment. All public evidence will be sanitized to protect identities, device information, tenant details, and credentials.
 
 ## Business Scenario
 
-Moltrix requires a secure, manageable, and scalable endpoint-management solution for a hybrid workforce. Employees need controlled access to organizational applications and information from compliant devices.
+Moltrix requires a secure and manageable endpoint solution for a small hybrid workforce. Users need controlled access to organizational applications and information from compliant devices.
 
-The proposed solution will use Microsoft cloud technologies to establish identity-based access, device enrollment, configuration management, application deployment, security controls, compliance evaluation, and operational reporting.
+This project will demonstrate identity preparation, device enrollment, configuration management, compliance policies, application deployment, endpoint security, testing, and troubleshooting.
 
-## Project Objectives
+## Version 1 Objectives
 
-- Design a secure endpoint-management architecture.
-- Configure and document Microsoft Intune capabilities.
-- Integrate endpoint management with Microsoft Entra.
-- Establish device configuration and compliance policies.
-- Demonstrate controlled application deployment.
-- Apply endpoint security and Conditional Access concepts.
-- Test expected and unexpected outcomes.
-- Record troubleshooting decisions and lessons learned.
-- Explore responsible AI assistance for support and reporting.
-- Produce technical and executive project summaries.
+- Document the business, technical, and security requirements.
+- Design and explain the endpoint-management architecture.
+- Prepare Microsoft Entra test users and groups.
+- Enroll and validate a test device.
+- Apply configuration and compliance policies.
+- Deploy and validate one application.
+- Apply selected endpoint-security controls.
+- Test successful and unsuccessful scenarios.
+- Document troubleshooting decisions and lessons learned.
 
-## Planned Project Phases
+## Implementation Plan
 
-| Phase | Workstream | Evidence |
+| Phase | Workstream | Required Evidence |
 |---|---|---|
-| 1 | Requirements and architecture | Business requirements and architecture diagram |
-| 2 | Tenant and identity preparation | Sanitized configuration records |
-| 3 | Device enrollment | Enrollment plan and test results |
-| 4 | Configuration management | Configuration profiles and validation |
-| 5 | Compliance management | Compliance policies and test cases |
+| 1 | Requirements and architecture | Requirements and architecture diagram |
+| 2 | Identity preparation | Sanitized users, groups, and role design |
+| 3 | Device enrollment | Enrollment plan and validation |
+| 4 | Configuration management | Configuration profile and test result |
+| 5 | Compliance management | Compliance policy and test cases |
 | 6 | Application management | Application deployment evidence |
-| 7 | Endpoint security | Security policies and control mapping |
-| 8 | Conditional Access | Access design and scenario testing |
-| 9 | Monitoring and support | Reports and troubleshooting journal |
-| 10 | AI extension | AI-assisted support and reporting prototype |
-| 11 | Final review | Technical report, executive summary, and demonstration |
+| 7 | Endpoint security | Security controls and validation |
+| 8 | Review and reporting | Troubleshooting, lessons learned, and final summary |
 
-## Evidence Structure
+## Planned Evidence
 
-This repository will contain:
+The project will include:
 
-- `docs/` — requirements, decisions, reports, and lessons learned
-- `architecture/` — diagrams and design explanations
-- `policies/` — sanitized policy definitions and configuration notes
-- `tests/` — test cases, expected results, and actual results
-- `evidence/` — approved and sanitized screenshots
-- `scripts/` — safe automation and reporting scripts
-- `ai-extension/` — AI-assisted operational concept and prototype
+- Business and security requirements
+- Architecture diagram
+- Sanitized configuration records
+- Test cases with expected and actual results
+- Sanitized screenshots
+- Troubleshooting records
+- Lessons learned
+- Final technical and executive summaries
+
+Folders will be created only when they contain real project evidence.
 
 ## Security and Privacy Rules
 
-The following information will never be published:
+The following information will not be published:
 
-- Passwords or authentication secrets
-- API keys, tokens, or recovery codes
+- Passwords, secrets, API keys, tokens, or recovery codes
 - Tenant or subscription identifiers
 - Personal user information
 - Device serial numbers or hardware identifiers
 - Unredacted administrative screenshots
 - Confidential organizational information
 
-## Definition of Done
-
-The project will be considered complete when:
-
-- [ ] Business requirements are documented
-- [ ] Architecture is designed and explained
-- [ ] Core Intune configurations are implemented
-- [ ] Device enrollment is demonstrated
-- [ ] Compliance and security policies are tested
-- [ ] Application deployment is validated
-- [ ] Conditional Access scenarios are evaluated
-- [ ] Troubleshooting evidence is recorded
-- [ ] AI extension is documented or demonstrated
-- [ ] Technical and executive reports are published
-- [ ] Final presentation is completed
-
-## Current Progress
+## Version 1 Progress
 
 - [x] Project repository established
-- [ ] Project charter completed
-- [ ] Lab requirements documented
-- [ ] Initial architecture diagram published
-- [ ] First endpoint-management lab completed
+- [x] Project charter completed
+- [ ] Requirements documented
+- [ ] Architecture designed and explained
+- [ ] Test users and groups prepared
+- [ ] Test device enrolled
+- [ ] Configuration and compliance policies tested
+- [ ] Application deployment validated
+- [ ] Endpoint-security controls validated
+- [ ] Troubleshooting evidence recorded
+- [ ] Lessons learned and final summary published
+
+## Possible Future Extensions
+
+These will be considered only after Version 1 is complete:
+
+- Conditional Access testing, subject to available licensing
+- Safe administration or reporting automation
+- AI-assisted support or reporting prototype
 
 ## Program Alignment
 
-This project is part of the [Moltrix Cloud & AI Transformation Program](https://github.com/FinanceToData/moltrix-cloud-ai-roadmap).
+This project is part of the [Moltrix Cloud & AI Transformation Program](https://github.com/AnwarAliCloudAI/moltrix-cloud-ai-roadmap).
 
 ## Author
 
