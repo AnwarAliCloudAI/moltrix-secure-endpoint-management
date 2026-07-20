@@ -10,7 +10,7 @@
 
 ## 1. Business Scenario
 
-Moltrix requires a secure endpoint-management solution for a small hybrid workforce.
+Moltrix requires a secure endpoint-management solution for a small distributed workforce.
 
 Authorized users need access to organizational applications and information from managed Windows devices. A correct username and password alone are not sufficient because an authorized user may attempt to connect from an unsafe device.
 
