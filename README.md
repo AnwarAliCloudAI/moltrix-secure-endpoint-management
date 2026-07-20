@@ -73,7 +73,7 @@ The following information will not be published:
 
 - [x] Project repository established
 - [x] Project charter completed
-- [ ] Requirements documented
+- [x] Requirements documented
 - [ ] Architecture designed and explained
 - [ ] Test users and groups prepared
 - [ ] Test device enrolled
